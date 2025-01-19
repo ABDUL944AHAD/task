@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function abc(){
+            console.log(`hello`);
+        }
+        const a = function abc(){
+            console.log(`hello`);
+        }
+        const b = function (){
+            console.log(`hello`);
+        }
+        const c = () => {
+            console.log(`hello`);
+        }
+
+
+
+        // parameters
+        var a1 = 55;
+        var b1 = 66;
+        const  g= () =>{
+            console.log(a1 + b1);
+        }
+        
+
+
+        //arguments
+        const d= (a,b) => {
+            console.log(a + b )
+        }
+        a(22,33)
+        a(22,3444)
+
+        //array 
+        var person = [ "Abdul ahad",19, `inter`];
+        //destructing of array
+        var person = [ "Abdul ahad",19, `inter`];
+        var [ name, rollnum , class1] = person;
+        console.log(person);
+
+    </script>
+</body>
+</html>
